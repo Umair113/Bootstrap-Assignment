@@ -20,22 +20,10 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    - name: Setup Node.js environment
-      uses: actions/setup-node@v2-beta
-      with:
-      # Deprecated. Use node-version instead. Will not be supported after October 1, 2019
-       version: 12
-       
-    - name: GitHub Action for Yarn
-      uses: Borales/actions-yarn@v2.3.0
-      with:
-       cmd: install
- 
-    - name: Creating build folder for our app
-      run:  yarn build
+   
     
     - name: Install surge
       run: npm install -g surge 
     
     - name: Deploying surge
-      run: surge ./build  https://bootstrap-Assignment.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge https://bootstrap-Assignment.surge.sh --token ${{secrets.SURGE_TOKEN}}
