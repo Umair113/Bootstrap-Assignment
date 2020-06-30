@@ -1,0 +1,290 @@
+body {
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+}
+
+#home {
+	background-color: rgb(231, 231, 231);
+}
+
+#navbar-example li {
+	font-weight: bold;
+	padding: 0;
+}
+
+#jumbotron {
+	background-color: rgb(0, 204, 153);
+	height: 400px;
+	border-radius: 0;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	margin-bottom: 0px;
+}
+
+#jumbotronContent {
+	font-weight: bold;
+}
+
+.navbar {
+	background-color: rgb(248, 249, 250);
+	padding: 0;
+}
+
+.nav-item {
+	padding: 5px 10px;
+}
+
+.first {
+	background-color: gray;
+}
+
+#upperlefticon {
+	width: 60px;
+	margin-left: 30px;
+}
+
+#keepcalm {
+	width: 150px;
+}
+
+#container1 {
+	background-color: rgb(248, 249, 250);
+}
+
+#secondNav {
+	padding: 20px;
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgb(153, 153, 153);
+}
+
+.navsNames:hover {
+	text-decoration: none;
+	color: gray;
+}
+
+.navsNames {
+	padding: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgb(153, 153, 153);
+}
+
+#selectedNav {
+	color: rgb(102, 102, 102);
+}
+
+.card {
+	margin: 10px;
+	border-radius: 0;
+	border: none;
+	background-color: rgb(248, 249, 250);
+}
+
+.card-deck {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(248, 249, 250);
+}
+
+#picsContainer {
+	background-color: rgb(248, 249, 250);
+}
+
+.card-img, .card-img-top {
+	border-radius: 0;
+	transition: transform .2s;
+}
+
+.columns {
+	height: 300px;
+}
+
+.card-title {
+	color: rgb(128, 128, 128);
+	text-align: center;
+	font-size: large;
+}
+
+.card-text {
+	color: rgb(128, 128, 128);
+	text-align: center;
+	font-size: medium;
+}
+
+.cards {
+	background-color: rgb(248, 249, 250);
+}
+
+.cards:hover {
+	cursor: pointer;
+}
+
+.card-title {
+	margin: 0px;
+}
+
+.card-body {
+	display: none;
+	background-color: rgb(248, 249, 250);
+}
+
+.lastContainer {
+	background-color: white;
+	width: 100%;
+}
+
+.lastContainer a {
+	margin-bottom: 20px;
+	text-decoration: underline;
+	font-weight: 550;
+	color: rgb(192, 192, 192);
+}
+
+.lastContainer p {
+	color: rgb(128, 128, 128);
+	font-size: 0.6rem;
+	line-height: 30px;
+}
+
+.containerWithin {
+	margin-left: 30px;
+}
+
+.lastCards {
+	background-color: white;
+}
+
+/* Styles of all font awesome(Social Media) icons */
+
+.fa {
+	padding: 5px;
+	width: 35px;
+	height: 25px;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Adding a hover effect  */
+
+.fa-twitter {
+	color: white;
+	background-color: rgb(4, 173, 242);
+}
+
+.fa-twitter:hover {
+	background: white;
+	color: gray;
+}
+
+.fa-facebook:hover {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-google-plus:hover {
+	background: orangered;
+	color: white;
+}
+
+.fa-instagram:hover {
+	color: white;
+	background: rgb(156, 50, 156);
+}
+
+.fa-flickr:hover {
+	color: white;
+	background: rgb(3, 82, 3);
+}
+
+.latestComments {
+	background-color: rgb(236, 240, 241);
+	border-radius: 5px;
+	margin-bottom: 20px;
+	color: rgb(192, 192, 192);
+	vertical-align: middle;
+}
+
+.latestComments p {
+	line-height: 25px;
+	font-size: 0.9rem;
+	margin-bottom: 0;
+	padding: 10px;
+}
+
+#lastFluid {
+	background-color: white;
+}
+
+.smallCards {
+	float: left;
+	width: 270px;
+	height: 170px;
+}
+
+.theRow {
+	width: 100%;
+}
+
+.smallCardsBorder {
+	width: 20%;
+	height: 27%;
+	float: left;
+	text-align: center;
+	border: 1px solid lightgray;
+	margin: 2px 5px;
+}
+
+.pics {
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	margin-top: 5%;
+}
+
+.pics:hover {
+	cursor: pointer;
+}
+
+.smallCardsBorder:hover {
+	cursor: pointer;
+	border: 1px solid gray;
+}
+
+.pics img {
+	width: 100%;
+	height: 100%;
+}
+
+.footer {
+	background-color: white;
+}
+
+#lastLine {
+	width: 97%;
+	background-color: white;
+}
+
+#bottomLine {
+	color: rgb(160, 160, 160);
+	text-align: center;
+	margin: 0;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+#bottomLine>a {
+	font-size: 12px;
+	font-weight: 550;
+	color: rgb(25, 189, 155);
+	text-decoration: none;
+}
+
+#bottomLine>a:hover {
+	text-decoration: underline;
+}
